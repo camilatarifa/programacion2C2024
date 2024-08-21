@@ -1,0 +1,136 @@
+https://github.com/Francisco-Acuna
+aula virtual: https://aulasvirtuales.bue.edu.ar/        la entrega de trabajos es por github (un link)
+repocitorio 2024CFP8ObjetosTarde github:
+♥ https://github.com/crios2020/2024CFP8ObjetosTarde
+codeshare: (porta papeles online) 
+♥ https://codeshare.io/crios2020
+WSP: https://chat.whatsapp.com/JZDBbXTk8pJGqiXNMc7Cpi
+Software: JDK LTS 17 o 21
+lenguaje de unity
+18-3
+♥ https://start.spring.io/ gestor de proyecto, multi id, el profe prefiere Mave ya que es gratis.
+m2 o r2 son versiones de pruebas, no me combienen xq pueden fallar. tiene que estar solo el numero para que sea oficial
+Project Metadata        Group: ar.org.centro8.curso.java (se escribe al reves)
+Packaging: jar en el servidor que corre en java la maquina             war: en el servidor java
+Dependencies: Lombok (las dependdencias son drivers)
+StarUML para plantear una idea inicial			documentamos en java doc, pegamos lo que hicimios en StarUML, lo usamos para no perder tiempo
+20-3
+multi id: que se puede leer con todos lectores (programas)
+proyecto Maven		spring: me genera una carpeta de Maven (https://start.spring.io/)
+22-3
+https://www.youtube.com/watch?v=8X2acANBuLk 	video de sring to
+27-3
+el vehículo clase padre
+auto clasico clase				tener o contener (relacion entre clase)
+auto nuevo clase
+bondis clase
+radio atributo
+precio es un atributo
+3-4
+el constructor no tiene radio
+un auto nuevo siemore tiene radio. el constructor debe tener radio
+atributo
+null= estado desconocido
+settec se escribe
+get tec se lee
+       //reflectividad
+ /*
+         * Que es una clase: una clase se encuentra como sustantivos en la vida real, 
+         *      se escribe en singular iniciando en mayúscula. Ej Auto, Alumno, Profesor, Vendedor, Articulo
+         * Clases en Java: son instancias de la clase java.lang.Class
+         * 
+         * 
+         * Que son los atributos: los atributos son variables contenidas dentro de la clase y 
+         *      describen a la clase, tienen un tipo de datos.
+         * Atributos en Java: son instancias de la clase java.lang.reflect.Field
+         * 
+         * Que son los métodos: los métodos son acciones que realiza una clase y se expresan como verbos
+         * Métodos en Java: son instancias de la clase java.lang.reflect.Method
+         * 
+         * Que son los objetos: son instancias de la clase que representan una situación en particular
+         *      y tienen estado propio.
+         * 
+         * Desacoplamiento(deseado) y cohesión de clases(deseado) 
+         * Acoplamniento(no deseado)
+         * 
+         * Constructores: son métodos que se usan para inicializar un objeto, pueden existir varios
+         *      constructores sobrecargados, Tienen el nombre nombre que la clase, no tiene devolución de valor.
+         *      Si la clase no tiene constructor, java agrega un constructor vacio en tiempo de compilación
+         * constructores en java: son instancias de la clase java.lang.reflect.Constructor
+         * 
+         */
+metaproframacio: yo recivo un objeto y despues analizo el objeto
+5-4
+interface verde
+collection naranjas
+HashSet	hace que no haya dublicados
+TreeSet va a ordenar el codigo
+hay un elelemento Agrer y tocar
+vectores
+dentro de collection hay 3 etapas
+- list es una lista tipo vector, tiene indice
+-1 (dentro de list) ArrayList, agrega y quita elementos más rapido que LinkedList, pero LinkedList es más rapido de correr
+-2 LinkedList	(ante la duda usar ArrayList)
+-3 Vector NO esta deprecada (eliminada), pero se dice que esta vieja
+en collection hay un metodo default
+8-4
+las colletion son listas,	lo verde es una interface y los lo naranja es class, hay polimorfismo.
+se puede hacer puro polisformismo de un sistema
+no ir más abajo que las arraylist
+la interdace set da un una lista dinamica, pero no da indices (los indices son malos(en realidad no deberia usarlo))
+El mismo objeto que guardo es el indice(no puedo guardar el mismo objeto (es indice solo se guarda una vez y no tiene valores duplicados))
+Implementaciones(<----) las 3 tienen comporatamientos distintos.
+si quiero un valor duplicado hago un list NO un set
+10-4
+interfacee queue (cola) diferente a una pia se agrana elemnto al finaly.
+el la pla  o no haet garagra apliladesecolrpsodes colar
+metodo pop desapila un elemento
+la inteface map, vector asocioativo (tiene un idice, puede ser cualquier cosa ej:-20 10 40 etc) El indice puede ser 3 onjetos. hay 4 interaciones Hastable (es igual a hasmap, no es recomendable), hasmpap, es más veloz, la llave tiene un string y rl resultado tamnien sera string (me flalntan 2g)
+IMPLEMENTACION hashMap
+Clase13 12/4
+en resources van los html (documentos, txt)
+w3c Valideitor, pongo el codigo para ver los errores. warning es q escribi mal
+https://validator.w3.org/nu/#textarea
+♥ getbootsrap	pagina para ordenar Bootstrap
+getProperty anda en todos los sistemas operativos
+
+-Carpeta resorces
+-- templates: archivos html
+-- static: archivos no html (imagenes, css, js)
+--- ejemplo www.carlos.com/̶i̶n̶d̶e̶x̶.̶h̶t̶m̶l̶                si le pongo /inicio.html esta mal xq haria mas largo el codigo
+    <title>Configuración</title>        <title>Configuración</title>  lo q se ve en la pagina ---
+ Como encender el server web
+ en una terminal gitbash (bash), ejecutar
+ sh mvnw spring-boot: run (--- usar terminal Bash, esta en la consola poner dir para ver lo q tengo, src esta el codigo---) 
+--- <h1> son los titulos <h1> --- puedo hacer de h1 a h6 y van a ir disminuyendo el tamaño --- este es un lenguaje de etiquetados---
+--- html hay un consorcio q los regula como pasa con java, cuando hay un error el navegador lo interpreta, lo q pasa es q cada
+navegador interpreta de diferente manera, hay cosas mal en el codigo (pero en si se ve bien, eso no significa q no tenga errores) ---
+--- como funciona Bootstrap copio el link de abajo para ordenar --- bg-secondary (color secundario) pongo como un subrayado en la 
+pagina, text-light  para hacer lla letra blanca, p-2 q haya separacion entre los bordes y la pagina este separadores
+
+▼ aoi
+
+uso de recursos. NJakca es paranel estudio
+ <!--m-2 espacio-->
+No metrse con los gadwar
+22/4
+todo lo que esta en Try Cacht se puede contener. si marca error NO se puede contener
+una checkit excepion debe ser controlada, osea que de debe estar adentro de try cacht
+24/4 clase 18
+deafult true linea 23 no lo borra sino q lo desactiva
+26/4
+DBeaver community=Instalar, ya que es mejor que workbench
+patron de diseño Singelton, una conexion en la base de datos
+12/6			Paginas que tambien puedo utilizar
+https://www.flaticon.es/
+Estudiar. React, NodeJs, son cosas que tambien piden en el mercado laboral.
+24/6
+♥playground
+
+smata@DESKTOP-0DRDVM6 MINGW64 ~/OneDrive/Escritorio/CamilaOBjetos/tienda/tienda
+$ ls (cosas que debo escricbir en el terminal gitbash)
+HELP.md  mvnw*  mvnw.cmd  pom.xml  src/  target/
+
+smata@DESKTOP-0DRDVM6 MINGW64 ~/OneDrive/Escritorio/CamilaOBjetos/tienda/tienda
+$ sh mvnw spring-boot:run (cosas que debo escricbir en el terminal gitbash para ir a la pagina)♥
+♥http://localhost:8080
