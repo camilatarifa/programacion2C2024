@@ -1,0 +1,14 @@
+16/8
+poner en scr/main, los archivos estaticos, los que no pueden intractuar los usuario, como el idex.
+Para hacer correr el servidor primero ir a la carpeta principal, boton derecho, run as, spring boot app, despues de que corra, tocar el boton loal, en el proyecto tocar boton derecho, y elegir open web brower. 
+Para apagar el servidor toco el boton rojo.
+starspring.io 
+la dependencias se pueden agregar al archivo pom
+Para ver el termial, toca la carpeta principal, show in,  terminal.
+desde la terminal se puede detener el servidor con control C
+ https://github.com/cfpit/Interfaces2C2024
+relcion uno a uno, clave primaria, puede ser simple o compuesta.
+relacion de muchos a uno.
+relaciones de muchos a muchos
+control t, nueva pestaña en mysql
+cuando mezclamos campos con la agrupacion... 
