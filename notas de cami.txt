@@ -1,3 +1,5 @@
+https://github.com/cfpit
+
 16/8
 poner en scr/main, los archivos estaticos, los que no pueden intractuar los usuario, como el idex.
 Para hacer correr el servidor primero ir a la carpeta principal, boton derecho, run as, spring boot app, despues de que corra, tocar el boton loal, en el proyecto tocar boton derecho, y elegir open web brower. 
@@ -6,9 +8,93 @@ starspring.io
 la dependencias se pueden agregar al archivo pom
 Para ver el termial, toca la carpeta principal, show in,  terminal.
 desde la terminal se puede detener el servidor con control C
- https://github.com/cfpit/Interfaces2C2024
++ c***********************************************
 relcion uno a uno, clave primaria, puede ser simple o compuesta.
 relacion de muchos a uno.
 relaciones de muchos a muchos
 control t, nueva pestaña en mysql
 cuando mezclamos campos con la agrupacion... 
+23/8
+descargar la extension en visual:
+* Extension Pack for Java
+*Spring Initializr Java Support
+conntrol shif p. Spring incia maven
+para ver el servidor
+http://localhost:8080 en visual
+para cerrar control c
+otro programa que se usa el spring tools
+Enlistar el nomre de la editorial y el nombre de la editorial que publico po dicha editorial
+nombre de los autores que an escrito libros de cocina
+indicar cuando s publicaron dichos libros
+28/8 Miercoles
+si yo quiero que m agina ande debo ponerlo e un servido que puede ser gratis medio malo o pago.
+acá algunos de paga:
++ https://www.hostinger.com.ar/precios
++ https://donweb.com/es-ar/?ad_campaign=209398715&ad_content=302027662291&pcprovider=google&gad_source=1&gclid=EAIaIQobChMIqLaG2v-XiAMVrH9vBB2KXASVEAAYASAAEgKNf_D_BwE
++ https://www.bitcatcha.es/investigacion/hosting-gratuito/
+29/8 Jueves
+color exa, pagina de colores
+Servidores web java:
+* Apache toncat
+* Glassfish
+* Payara
+* Jetty
+* Jboss
+* Wildfly
+Esos son contenedores servlet (los * de arriba)
+
+cliete - servidor
+html - servlet
+jsp (Java Serer Page) - servlet
+html/css/js - Spring boot
+react, angular[construlle el fronten], ionic (thymeleaf) - spring boot
+
+al usar el localhoost, estamos usando Apache toncat
+ej backen hecha por spring,
+-------------
+sprintool control m: veo completo el codigo
+4/8
+enmaquetados
+cuerpo, futer, division (una caja puede estar contenida en otra caja)
+visual : poner un div.xcosa y te arma la clase
+eje:   div.container  al apretar enter se vuelve    <div class="container"></div>
+tipos de colocamientos de cajas: el relativo y absoluto (estos 2 son los principales)
+enmaquetado: relativo, absoluto y fotación
+z-index, seria trimencion, maneja que caja aparece arriba de la otra
+clear: left; /*corte de flotcion*/ 
+box sizing (dimencionamiento de la caja): es el que ordena las cajas, para que no haya desvordaiento de caja.
+Hay 2 tipos de box sizing. pero por lo general se usa uno. Esta el box-sizing: content-box y el box-sizing: border-box
+
+IMPORTANTE
+Para un diseño predecible usar el valor border box-sizing (este respeta el tamaño original),
+overflow: auto; esto hace que en la caja de que tiene mucho texto se le haga una barra para bajar
+overflow: hidden; Si desborda el contenido se corta, osea no se ve
+
+5/9 El valor de line de ver ufual que height 
+coul smang para que una celda este fucionada
+color coup		ColorCop
+investgar como hacer un vinculo a mailto
+ancljes, ej preguntas, tenes la pregunta 3 y la tocas y te lleva a la pagina
+tp 1 html y 2 css
+en el trabajo3, el ejercicio n5 la botonera, es lo que hice el 5/9, clase 04 
+
+13/9
+una valiable de secion permite mantener el valor de un objeto o colección entre diferetes paginas del sitio, ejempo un login (uso de variable de secion)
+el metodo SetAtrribute(nombr, c)[contenido de la coleccón]
+18/9 Miercoles interface
+div.xclase + enter me genera una clase, esto es un atajoo
+height: 20vh; vio por (vh, asi lo escucho), en vez de usar % o pixeles, uso eso que es un tamaño estandar para cualquier dispositivo. vista alta,vertical
+el height y el line-height tienen que tener el mismo valor
+margin: auto; centrar x caja
+width: 80vw; viu w = vista ancho, horizontal
+        clear: both;   es para que se vea el footer (para que este no )
+ <head class="bg-primary">Encabezado</head>  el "bg-primary" es un color de boostrap, pueden haber más colores en boostrap
+py-1 es el padding, p horizontal y vertical
+py-1 = 0.25 rem = 16px
+py-2 = 0.5 rem
+py=3 1 rem
+margen My1, my2, my3, mx1. mx2, mx3
+Rem unidad de una medida relativa. El ancho de la m, relativo ,M= em = rem
+19/9 DOM, modelo de objeto html, conjunto de objetos que representa el html.
+en     <header class="bg-primary text-white text-center py-3">Encabezado</header> puedo poner algo que cree en css
+
