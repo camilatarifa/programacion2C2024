@@ -1,0 +1,29 @@
+20/9 RequestDispatcher, despchar, re direciona los datos de serverta html
+sendRedirect, es lo mismo, pero Request es mejor
+springboot y tamilife
+https://github.com/cfpit/Objetos20231C, clase 30, los codigos
+C:\Users\Alumnos n°13\Desktop\camiaT\Clase 30\ProyectoDAO\build\classes\ar\org\centro8\curso\java\dao
+ruta del trabajo que descargue
+phind ia ************
+primero encargrse de la tabla de uno y despues de a muchoo
+cuando mesclo campos con funciones de agrupacion, tenes que usar group by
+ set sql_safe_updates=0; esto es para borrar algo en mysql, ya que el sistma de ssseguridad
+25/9
+Java y javascript son diferentes.Se usa para el frontem
+tailwind css (es como un boostrap mejorado)
+react, libreria  que ppermite desarrollar el fromtem
+next.js, extencion de react
+javascrip, tiene los 3 leguajes para el from, manipula objetos, pero no esta orientada a objetos
+w3School, enseña los lenguajes webs
+body, lo que se vve. head la metada
+varible prefigo, variable global, su alcance (scope) es todo el scrip
+NO es rcomendable usar variables globales
+datos.push('Chau'); agrega elementos al arrays
+pop, elimmina los elementos
+innerHTML (adentro del html)
+array asociativo,que no tiene numero el  nombre, ejemplo  en vez  de [1] puede ser arrays Nombre
+isArray, es un arrays? devuelve un true o flase
+serialización, si tengo appi pyton objeto y quiero pasarlo a appi objeto, tengo que hacer una serializacion, texto
+py, appi, obj <- texto(serializacion)->java,appi,obj
+frout js <- json->ryack spring
+matriz es lo mismo que arrays
