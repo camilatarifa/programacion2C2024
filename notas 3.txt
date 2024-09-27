@@ -27,3 +27,13 @@ serialización, si tengo appi pyton objeto y quiero pasarlo a appi objeto, tengo
 py, appi, obj <- texto(serializacion)->java,appi,obj
 frout js <- json->ryack spring
 matriz es lo mismo que arrays
+26/9
+formas de url
+http://localhost:8080/saludo?nombre=Luis&edad=21
+http://localhost:8080/saludo/juan/20
+27/9
+visual, control+. = atajo a la lampara
+parte d base:
+un campo q es clave primaria en una tabla, autmaticamente es indice primary
+unsigned, significa que todos los numeros deben ser positivos
+un BITREE es la forma más rapida de encontrar un dato
