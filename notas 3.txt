@@ -37,3 +37,77 @@ parte d base:
 un campo q es clave primaria en una tabla, autmaticamente es indice primary
 unsigned, significa que todos los numeros deben ser positivos
 un BITREE es la forma más rapida de encontrar un dato
+3/10 JUEVES 
+model, objeto permite pasar daros a la vista de thymilife
+parametros: /saludo?
+rest controller, es valido si el backend es polinamico. no necesito rest controller si expongo Objetos, si uso una api si
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model; estos pack usar (paquetes/importaciones)
+@restcontrollers es usar un api, NO usar, por ahora
+@controllers si usar
+alt+z= me acomoda el texto
+9/10 Miercoles
+            tabla.innerHTML+=`  		Es para incrementar
+10/10
+@generat
+@putmappin para modificar cosas de la base  de  datos
+@ggetmapping treae datos, ejemplo de traer  datos de persona, la   ruta ej: hhtp://localhost8080/persona/crear
+usar body
+SE VA LEVANTANDO DE ESTA FORMA EL TRABAO FINAL
+PRIMERO LA BASE DE DATOS
+DESPUES EL APACHE TOMCAT
+Y ULTIMO LIVESERVT
+17/10 desarrollo clase 9
+@RestController // tengo que poner RestController Y NO controller porque tengo una API, traformar un objeto java en jason o al reves
+@CrossOrigin(origins = "*", methods= {RequestMethod.GET,RequestMethod.POST, RequestMethod.PUT,RequestMethod.DELETE})
+public class PersonaController { //CrossOrigin para que no me bloque las busquedas en otros navegadores (CARPETA PERSOACONTROLLER)
+f12: irme a la definicion del metodo, asi voy a la capa donde se creo
+metodos de JPA->Hibernate
+-findAll()-> get
+	  -> select
+-findById ->get
+	  -> select
+-deleteByIda->delete
+-save->post
+	->insert
+DTO: vos tenes muchas entidades y vos no queres mostrar todos los datos de las idenidades, podes armar una lista de varias entidades, es como un join en mysql
+PRIMERO CREAR LA BASE VACIA, DESPUES CREAR EL FROMTEM
+CLASE 9	en application.propietis: spring.datasource.url=jdbc:mysql://localhost:3306/proyecto_jpa?seSSL=false&serverTimezone=UTC 
+eso es la base
+jdbc (base de dato)  try{
+string driver="com.cj.jdbc.Driver";
+conexion="jdbc:mysql://localhost:3306/proyecto_jpa?seSSL=false&serverTimezone=UTC "; ejemplo de conexion
+hosting gratuito: 
+*para el from:
+-Firebase
+-Netlify
+-vercel
+*Backend
+-Render
+*Bae de dato
+-Neon
+-Clever cloud
+se levanta todo dividido, primero se levanta la base  de datos, después el back y el utimo el from, despues subo los 3 en el github, para que tenga un solo url
+invstigar como se puede subirel proyecto
+
+
+EL FROM se puede hacer con HTML, FECH, TIMYLIFE, fech lo use en la clase 9 de desarrollo
+thunder client o postman, para ver el como si tuviera el, cuando solo tengo el backend, es el rayo, aca puedo modificar la base de datos, y el primer boton en la linea de send estan get, post, put y DELETE(estos son los que debo usar)
+trunckey, elimina todos los registros guardados en la base
+en el formulario de la clase 9, para que obligue a complatar los datos required
+petisiones sincronicas: pido algo y el servidor responde y asincroicas: puedo dar un monton de ordenes y el servidor tarda lo que se le da la gana
+el async envia una peticiones sincronicas
+el await espera la respuesta del servidor
+const respuesta, espera la respuesta=awit fech('http://localhost:8080/personas/crear') postmapping es /personas/crear
+sm, un boton chico, md medium, 
++= : signific agragar
+♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡ COMO HACER ELL TRABAJO FINAL♡♡♡♡♡♡♡♡♡♡♡♡♡♡♡
+primer paso crear la base de datos
+segundo paso hacer la aplicacion srin, ahi  crear todas las carpatas packas
+tercero interface(de la identidad, por general es un long) repository
+cuarto paso haacer el servicio, puede o no tener inerface.
+quinto crear el controller, @restcontroller
+sexto, probar endpoint, los endpoint tienen el metodo y la ruta, lo vamos a chequear con el (telemetry creo) creo q rayo
+septimo paso MAQUETACION, fromthen, HTML, la parte de maquetacion (conteiner o colum para contener cosas de boostrap para que quede mas ordenado)
+Octavo paso gestionar las peticiones y respuestas desde javascrip, fech
+
