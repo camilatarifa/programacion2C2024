@@ -111,3 +111,32 @@ sexto, probar endpoint, los endpoint tienen el metodo y la ruta, lo vamos a cheq
 septimo paso MAQUETACION, fromthen, HTML, la parte de maquetacion (conteiner o colum para contener cosas de boostrap para que quede mas ordenado)
 Octavo paso gestionar las peticiones y respuestas desde javascrip, fech
 
+18/10 base de datos
+como utilizar stored procedure en java? (stored procedure son de lo  que más usado aparte d las tablas)
+cuando tiene un @ adelante es una variable mysql
+call llamar
+ejercicio 5 clase 8 parte procedimientos de salida, contaduria es un paramentro
+el for no existe en mysql, existe e white
+23/10
+script  scr, siempre al final anters de </body>
+cllase 11, siempre usar @CrossOrigin
+gestor de base de datos : spring.datasource.url=jdbc:mysql://localhost:3306/base_productos?useSSL=false&serverTimezone=UTC, esto esta en application.properties
+spring.jpa.hibernate.ddl-auto=update Esto lo pongo porque tengo la tabla vacia, esto esta en application.properties
+
+thyif corre en bback end
+
+25/10 Base de datos
+triggers, se usa para la auditoria de datos
+procedimiento almacenamiento, el trigger se puede usar en un Insert, Delete y Update  
+-----------
+boton de arrepetimiento, se puede generar con un trigger
+¿como utilizar procedimiento almacenado o un trigger (en la capa repositori mediante una named pveries)?
+Old se utiliza para camibiar o borrar viejos datos
+la palabra reservadas new y old estan junnto a los campos de la tabla el cual se asocia el evento
+cuanto se da un registro en la tabla de venta se dispara el trigger para descontar libro
+-- El disparador 'before_ventas_insert' se asocia a la tabla 'ventas' y se dispara cada 
+-- vez que ejecutamos el comando SQL insert:
+Trigger procedimiento almacenado
+-- antes de eliminar una venta (existente) el trigger se dispara restituye el stock original
+ejemplo 3 de trigger. auditoria de dato
+Los trigger no se crean en base de datos sino a nivel de tablas
